@@ -13,17 +13,14 @@
 
             //show the homepage
 
-            View::render('/admin/index');
+            View::render('/home');
         }
 
 
-        public function show($id)
+        public function show()
         {
 
             // show one item 
-
-            $user = User::find($id);
-            View::render('/admin/show',['users'=> $user]);
         }
 
 
