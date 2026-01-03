@@ -9,16 +9,20 @@
 
         public function index()
         {  
-
             //show the homepage
-
-            View::render('/home');
+            View::render('home',[
+                'title_name' => $_ENV['APP_NAME'],
+            ]);
         }
 
 
-        public function show()
+        public function show($id)
         {
+            $user = User::find($id);
 
+            View::render('test',[
+                'users' => $user,
+            ]);
             // show one item 
         }
 
