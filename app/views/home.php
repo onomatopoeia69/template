@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-
     <h1>
         <span>H</span>ard
          da<span>y</span>s,

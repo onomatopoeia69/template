@@ -8,7 +8,6 @@ testBtn.addEventListener('click',()=>{
 
     let theme = getComputedStyle(document.documentElement).colorScheme;
 
-
     if(theme.includes('dark')){
 
       document.documentElement.style.colorScheme = 'light';
