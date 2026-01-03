@@ -15,14 +15,8 @@
             ]);
         }
 
-
-        public function show($id)
+        public function show()
         {
-            $user = User::find($id);
-
-            View::render('test',[
-                'users' => $user,
-            ]);
             // show one item 
         }
 
